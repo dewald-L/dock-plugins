@@ -7,18 +7,17 @@ The index of plugins for [dock](https://github.com/dewald-L/dock). dock reads
 ```bash
 dock plugin search
 dock plugin install lazy1on1
-dock plugin install --defaults   # what install.sh does
 ```
+
+dock installs nothing from the index on its own: `install.sh` installs dock alone
+unless you name plugins, and you pick the rest.
 
 ## Plugins
 
-| id | kind | default | description |
-|---|---|---|---|
-| lazy1on1 | native | yes | Continuous 1:1 notes: people, meetings, goals, action items ([repo](https://github.com/dewald-L/lazy1on1)) |
-| lazysheet | native | no | Timesheets: log, browse, edit and total osheet entries; uses osheet's config ([repo](https://github.com/dewald-L/lazysheet)) |
-
-`default` plugins are installed by dock's `install.sh` when it gets no
-arguments.
+| id | kind | description |
+|---|---|---|
+| lazy1on1 | native | Continuous 1:1 notes: people, meetings, goals, action items ([repo](https://github.com/dewald-L/lazy1on1)) |
+| lazysheet | native | Timesheets: log, browse, edit and total osheet entries; uses osheet's config ([repo](https://github.com/dewald-L/lazysheet)) |
 
 ## Adding a plugin
 
@@ -44,7 +43,6 @@ arguments.
 | `summary` | no | exec: argv whose output (3 lines) shows on dock's home screen. |
 | `requires` | no | A one-line hint shown on install, e.g. `needs osheet on PATH`. dock registers exec plugins but can't install their program. |
 | `repo` | no | An https link to the source. |
-| `default` | no | `true`: `install.sh` installs it. |
 | `tags` | no | Lowercase words for `dock plugin search`. |
 
 `id`, `name`, `description` and `package` must match the plugin's manifest and

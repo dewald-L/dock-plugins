@@ -45,7 +45,6 @@ type Entry struct {
 	Summary     []string `json:"summary,omitempty"`
 	Requires    string   `json:"requires,omitempty"`
 	Repo        string   `json:"repo,omitempty"`
-	Default     bool     `json:"default,omitempty"`
 	Tags        []string `json:"tags,omitempty"`
 }
 

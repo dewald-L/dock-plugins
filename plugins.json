@@ -9,7 +9,6 @@
       "package": "github.com/dewald-L/lazy1on1/dockplugin",
       "version": "",
       "repo": "https://github.com/dewald-L/lazy1on1",
-      "default": true,
       "tags": ["notes", "work"]
     },
     {
@@ -21,7 +20,6 @@
       "version": "",
       "requires": "uses osheet's config and timesheets (run osheet --setup first)",
       "repo": "https://github.com/dewald-L/lazysheet",
-      "default": false,
       "tags": ["timesheets", "work"]
     }
   ]
