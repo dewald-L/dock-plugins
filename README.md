@@ -15,6 +15,7 @@ dock plugin install --defaults   # what install.sh does
 | id | kind | default | description |
 |---|---|---|---|
 | lazy1on1 | native | yes | Continuous 1:1 notes: people, meetings, goals, action items ([repo](https://github.com/dewald-L/lazy1on1)) |
+| lazysheet | native | no | Timesheets: log, browse, edit and total osheet entries; uses osheet's config ([repo](https://github.com/dewald-L/lazysheet)) |
 
 `default` plugins are installed by dock's `install.sh` when it gets no
 arguments.
