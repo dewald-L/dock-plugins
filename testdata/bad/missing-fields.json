@@ -1,0 +1,1 @@
+{"version": 1, "plugins": [{"id": "a", "name": "a", "kind": "exec", "command": ["a"]}]}
