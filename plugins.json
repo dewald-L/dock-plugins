@@ -21,6 +21,16 @@
       "requires": "uses osheet's config and timesheets (run osheet --setup first)",
       "repo": "https://github.com/dewald-L/lazysheet",
       "tags": ["timesheets", "work"]
+    },
+    {
+      "id": "lazytodo",
+      "name": "Todo",
+      "description": "Quick todo capture; sort by priority, person and due date only when you want to",
+      "kind": "native",
+      "package": "github.com/dewald-L/lazytodo/dockplugin",
+      "version": "v0.1.0",
+      "repo": "https://github.com/dewald-L/lazytodo",
+      "tags": ["todo", "work"]
     }
   ]
 }
