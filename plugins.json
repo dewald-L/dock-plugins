@@ -28,7 +28,7 @@
       "description": "Quick todo capture; sort by priority, person and due date only when you want to",
       "kind": "native",
       "package": "github.com/dewald-L/lazytodo/dockplugin",
-      "version": "v0.1.0",
+      "version": "v0.2.0",
       "repo": "https://github.com/dewald-L/lazytodo",
       "tags": ["todo", "work"]
     }
