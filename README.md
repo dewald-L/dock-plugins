@@ -18,6 +18,7 @@ unless you name plugins, and you pick the rest.
 |---|---|---|
 | lazy1on1 | native | Continuous 1:1 notes: people, meetings, goals, action items ([repo](https://github.com/dewald-L/lazy1on1)) |
 | lazysheet | native | Timesheets: log, browse, edit and total osheet entries; uses osheet's config ([repo](https://github.com/dewald-L/lazysheet)) |
+| lazytodo | native | Quick todo capture; sort by priority, person and due date only when you want to ([repo](https://github.com/dewald-L/lazytodo)) |
 
 ## Adding a plugin
 
